@@ -22,6 +22,7 @@ subject_name <- c("John Doe", "Jane Doe", "Steve Graves")
 temperature <- c(98.1, 98.6, 101.4)
 #data.frame(subject_name, temperature)
 wbcd <- read.csv("/home/bala/RData/wisc_bc_data.csv", stringsAsFactors = FALSE)
+library(jsonlite)
 toJSON(wbcd)
 }
 
