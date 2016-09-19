@@ -16,6 +16,10 @@
 #hello <- function() {
   #print("Hello, world!")
 #}
-subject_name <- c("John Doe", "Jane Doe", "Steve Graves")
+hello = function()
+{
+subject_name <- c("John Doe", "Jane Doe", "Steve Graves","c")
 temperature <- c(98.1, 98.6, 101.4)
 data.frame(subject_name, temperature)
+}
+
